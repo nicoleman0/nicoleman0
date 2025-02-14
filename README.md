@@ -32,7 +32,7 @@ Google Cybersecurity Professional Certificate
   
     ○ Diagnosing and resolving issues with desktops, laptops, printers, and peripheral devices
   
-    ○​ Proficient in SQL and Bash
+    ○​ Proficient in SQL, Bash, Python
   
     ○​ Installing, configuring, and updating operating systems, software applications
     
