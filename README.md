@@ -52,13 +52,18 @@ network security, and set up a personal file-sharing server using NextCloud.
 ●​ Wireshark/tcpdump: Completed multiple practice projects involving log dumps, such as searching for
 evidence of DoS attacks/SYN flood attacks, and other threats.
 
-●​ Python projects: Created numerous scripts in python such as:
+●​ Created numerous scripts in Python such as:
 
     - Password manager, generator, checker
+    
     - Nmap automation tool
+    
     - Basic packet sniffer
+    
     - Linux syslog parser
+    
     - SSH login parser
+
 [Click here to view my projects.](https://github.com/nicoleman0/Portfolio/tree/projects)
 
 [Click here to view my completed assignments.](https://github.com/nicoleman0/Portfolio/tree/main/Assignments)
