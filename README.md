@@ -47,6 +47,8 @@ network security, and set up a personal file-sharing server using NextCloud.
 
 ●​ SQL databases: Practiced querying, filtering, and joining on practice databases.
 
+●​ Created an automated security incident response tool.
+
 ●​ Bash scripting: Knowledgeable of how scripting works, and use it to automate tasks.
 
 ●​ Wireshark/tcpdump: Completed multiple practice projects involving log dumps, such as searching for
