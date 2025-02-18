@@ -45,6 +45,8 @@ Google Cybersecurity Professional Certificate
 ●​ Home Lab setup: Configured a secure home lab environment using Linux and Windows VMs to practice
 network security, and set up a personal file-sharing server using NextCloud.
 
+●​ Created an automated security incident response tool, that scans and blocks maliicous IP addresses. [Click here to view the project.](https://github.com/nicoleman0/CerberusIR)
+
 ●​ SQL databases: Practiced querying, filtering, and joining on practice databases.
 
 ●​ Created an automated security incident response tool.
