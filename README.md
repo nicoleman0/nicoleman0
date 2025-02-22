@@ -9,7 +9,7 @@ I am a 24-year-old college graduate with a lifelong passion for computers and te
 
 I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity and IT.
 
-My goal is to become a SOC Analyst, and work with blue teams to defend organizations from threat actors.
+My goal is to one day become a SOC Analyst, and work with blue teams to defend organizations from threat actors.
 
 ## Education
 Bard College, Annandale-on-Hudson, NY​
