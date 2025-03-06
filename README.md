@@ -3,7 +3,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
-[Themed version of portfolio](https://nicoleman0.github.io/security.github.io/)
+[Portfolio/Blog site](https://nicoleman0.github.io/security.github.io/)
 
 ## Certifications
 - ISC2 Certified in Cybersecurity
