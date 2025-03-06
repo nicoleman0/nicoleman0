@@ -1,5 +1,7 @@
-# Nicholas Coleman GitHub Portfolio 
-[Email Address](mailto:nicholashadleycoleman@gmail.com) 
+## Contact
+[Email](mailto:nicholashadleycoleman@gmail.com) 
+
+[Encrypted Email](mailto:nhcoleman@proton.me)
 
 [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
