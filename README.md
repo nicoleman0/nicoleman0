@@ -1,10 +1,8 @@
-🎓 MSc Information Security @ Royal Holloway  
-
-🛡️ ICT Intern  
+ICT Support Intern and MSc Information Security student @ Royal Holloway
 
 # Featured Work
 
-## 🔐 Security & Incident Response
+## Security & Incident Response
 
 - **[Aegis-AI-Agent](https://github.com/nicoleman0/Aegis-AI-Agent)**  
   Python tool that parses logs and scores events based on risk factors, generating triage reports for SIEM workflows.
@@ -17,14 +15,14 @@
 
 ---
 
-## 📄 Policies, Documentation & Frameworks
+## Policies, Documentation & Frameworks
 
 - **[docu-site](https://github.com/nicoleman0/docu-site)**  
   Open-source security policies and tooling documentation, useful for audits and baseline security frameworks.
 
 ---
 
-## 💻 Practice & Tooling
+## Practice & Tooling
 
 - **[DNSpy](https://github.com/nicoleman0/DNSpy)**  
   Lightweight OSINT tool for DNS enumeration.
@@ -37,7 +35,7 @@
 
 ---
 
-## 📚 Learning and Practice Repos
+## Learning and Practice Repos
 
 - **[Python-Practice-Projects](https://github.com/nicoleman0/Python-Practice-Projects)**  
   Jupyter notebooks and Python exercises.
