@@ -1,5 +1,9 @@
-Postgrad student @ Royal Holloway
+🎓 MSc Information Security @ Royal Holloway  
 
-ICT intern
+🛡️ ICT Intern  
 
-ISC2 CC
+### 📂 Featured Work
+- Security automation & incident triage projects  
+- Home lab experiments & blue team tooling  
+
+Feel free to explore my repos or connect, always happy to talk security.
