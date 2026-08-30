@@ -1,1 +1,1 @@
-ICT Intern and MSc Information Security student @ Royal Holloway
+I like Python
