@@ -16,7 +16,7 @@ the homelab repos especially. Some things also live on [Codeberg](https://codebe
 
 | | |
 |---|---|
-| **Languages** | Python, Go, C, Bash, JavaScript/TypeScript, Nix, HCL |
+| **Languages** | Python, Bash, Nix, HCL |
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Semaphore, pre-commit |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
