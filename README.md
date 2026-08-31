@@ -60,7 +60,7 @@ My Mac is declarative too — nix-darwin + home-manager + sops-nix, one `task sw
 
 ### Dissertation
 
-**Delegated Defence: Prompt Injection and the Host-Model Assumption in Deployed MCP Servers.**
+**Somebody Else's Problem: Prompt Injection and the Hardened-Model Assumption in Deployed MCP Servers.**
 
 Depth-first security audits of deployed Model Context Protocol servers. Each server goes
 through recon → static → dynamic → synthesis; every finding is grounded in an artifact
