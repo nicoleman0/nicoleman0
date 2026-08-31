@@ -12,16 +12,16 @@ the homelab repos especially. Some things also live on [Codeberg](https://codebe
 
 ---
 
-### What I work with
+### About Me
 
 | | |
 |---|---|
 | **Languages** | Python, Bash |
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
-| **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Semaphore, pre-commit |
+| **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
-| **Python** | FastAPI, Django, SQLAlchemy + Alembic, pytest, uv, ruff |
-| **Security** | CVSS 4.0, OWASP, threat modelling, responsible disclosure, bandit / pip-audit / detect-secrets in CI |
+| **Python** | uv, FastAPI, Django, SQLAlchemy + Alembic, pytest, ruff |
+| **Security** | MSc. Information Security, Royal Holloway University of London |
 
 ---
 
