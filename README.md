@@ -22,7 +22,6 @@ Some things also live on [Codeberg](https://codeberg.org/ncoleman).
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
-| **Security** | MSc. Information Security (Royal Holloway, University of London); ISC2 Associate |
 
 ---
 
