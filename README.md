@@ -21,7 +21,7 @@ the homelab repos especially. Some things also live on [Codeberg](https://codebe
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
 | **Python** | uv, FastAPI, Django, SQLAlchemy + Alembic, pytest, ruff |
-| **Security** | MSc. Information Security, Royal Holloway University of London |
+| **Security** | MSc. Information Security, Royal Holloway University of London, ISC2 Associate |
 
 ---
 
