@@ -2,7 +2,7 @@
 
 **IT DevOps · MSc Information Security — Royal Holloway, University of London**
 
-I run infrastructure for a living and keep a two-node Proxmox cluster at home so I
+I do automation and infra work for a living and keep a two-node Proxmox cluster at home so I
 can make the same mistakes on my own time. Most of what I write is Python, most of
 what I deploy is declared in a repo somewhere, and nothing gets `apply`'d by hand if
 a pipeline can do it instead.
@@ -16,7 +16,7 @@ the homelab repos especially. Some things also live on [Codeberg](https://codebe
 
 | | |
 |---|---|
-| **Languages** | Python, Bash, Nix, HCL |
+| **Languages** | Python, Bash |
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Semaphore, pre-commit |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
