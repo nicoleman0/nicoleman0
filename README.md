@@ -3,12 +3,14 @@
 **IT DevOps · MSc Information Security — Royal Holloway, University of London**
 
 I do automation and infra work for a living and keep a two-node Proxmox cluster at home so I
-can make the same mistakes on my own time. Most of what I write is Python, most of
-what I deploy is declared in a repo somewhere, and nothing gets `apply`'d by hand if
+can make the same mistakes on my own time! Most of what I write is Python, and pretty much all of
+what I deploy is declared in a repo somewhere. Nothing gets `apply`'d by hand if
 a pipeline can do it instead.
 
 A fair amount of my work lives on a self-hosted **Forgejo** instance rather than here —
-the homelab repos especially. Some things also live on [Codeberg](https://codeberg.org/ncoleman).
+the homelab repos especially. Ya know. 
+
+Some things also live on [Codeberg](https://codeberg.org/ncoleman).
 
 ---
 
@@ -20,8 +22,7 @@ the homelab repos especially. Some things also live on [Codeberg](https://codebe
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
 | **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
-| **Python** | uv, FastAPI, Django, SQLAlchemy + Alembic, pytest, ruff |
-| **Security** | MSc. Information Security, Royal Holloway University of London, ISC2 Associate |
+| **Security** | MSc. Information Security (Royal Holloway, University of London); ISC2 Associate |
 
 ---
 
