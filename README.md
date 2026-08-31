@@ -32,7 +32,7 @@ Some things also live on [Codeberg](https://codeberg.org/ncoleman).
 | | |
 |---|---|
 | [**touchneedle**](https://github.com/nicoleman0/touchneedle) | Verifies that the citations in a document are real, accurately described, and consistently used — including the signature a fabricated AI bibliography leaves behind. Exits non-zero, so it drops into CI. `pip install touchneedle` |
-| [**surgite**](https://github.com/nicoleman0/surgite) | Standup summaries from your git history — browser, terminal, or a shareable link. FastAPI + Postgres, no SPA framework, ~15 source files. `pip install surgite` |
+| [**surgite**](https://github.com/nicoleman0/surgite) | Standup summaries from your git history — browser, terminal, or a shareable link. FastAPI + Postgres, ~15 source files. `pip install surgite` |
 | [**temenos**](https://github.com/nicoleman0/temenos) | Cross-platform CLI for domain research |
 | [**kismob**](https://github.com/nicoleman0/kismob) | Mobile-first PWA for monitoring a Kismet wardriving rig |
 | [**Road To War: July 1914**](https://codeberg.org/ncoleman/road-to-war) | Browser game about the thirty days between Sarajevo and general war. FastAPI, opposing chancelleries run by the same rules you are |
