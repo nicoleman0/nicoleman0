@@ -21,7 +21,7 @@ Some things also live on [Codeberg](https://codeberg.org/ncoleman).
 | **Languages** | Python, Bash |
 | **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
 | **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
-| **Platform** | Traefik, step-ca, Technitium DNS, MinIO, Authentik, PBS, Uptime Kuma |
+| **Platform** | Traefik, step-ca, Technitium DNS, MinIO, PBS |
 
 ---
 
