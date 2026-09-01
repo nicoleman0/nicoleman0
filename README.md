@@ -2,7 +2,7 @@
 
 **IT DevOps · MSc Information Security — Royal Holloway, University of London**
 
-I do automation work for a living and keep a two-node Proxmox cluster at home.
+I do automation work for a living and keep a two-node Proxmox cluster (with a QDevice) at home.
 Most of what I write is Python, and pretty much all of
 what I deploy is declared in a repo somewhere. Nothing gets `apply`'d by hand if
 a pipeline can do it instead.
