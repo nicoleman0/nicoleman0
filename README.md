@@ -31,6 +31,7 @@ Some things also live on [Codeberg](https://codeberg.org/ncoleman).
 
 | | |
 |---|---|
+| [**elengtis**](https://github.com/nicoleman0/elengtis) | A configurable MCP prompt-injection benchmark, using declarative YAML + LangGraph. |
 | [**touchneedle**](https://github.com/nicoleman0/touchneedle) | Verifies that the citations in a document are real, accurately described, and consistently used — including the signature a fabricated AI bibliography leaves behind. Exits non-zero, so it drops into CI. `pip install touchneedle` |
 | [**surgite**](https://github.com/nicoleman0/surgite) | Standup summaries from your git history — browser, terminal, or a shareable link. FastAPI + Postgres, ~15 source files. `pip install surgite` |
 | [**temenos**](https://github.com/nicoleman0/temenos) | Cross-platform CLI for domain research |
