@@ -1,0 +1,82 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update_contributions.py
+      - .github/workflows/profile.yml
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Refresh merged contributions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_contributions.py
+      - name: Save README
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update merged community contributions'
+            git push
+          fi
+
+  metrics:
+    needs: contributions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Metrics token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo '::error::Add the METRICS_TOKEN repository secret using a classic token with no scopes.'
+            exit 1
+          fi
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: nicoleman0
+          filename: github-metrics.svg
+          base: header, repositories
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: commit, pull_request
+          plugin_notable_repositories: yes
+          plugin_notable_self: no
+          config_timezone: Europe/London
+          config_animations: no
+          plugins_errors_fatal: yes
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Embed rendered Metrics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/update_contributions.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Embed GitHub Metrics'
+            git push
+          fi

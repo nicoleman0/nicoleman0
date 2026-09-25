@@ -1,76 +1,65 @@
 ## Nick Coleman
 
-**IT DevOps · MSc Information Security — Royal Holloway, University of London**
+I build Python tools, experiment with LLM security, and run a two-node Proxmox homelab.
+Most of what I deploy is declared in a repo and applied through a pipeline.
 
-I do automation work for a living and keep a two-node Proxmox cluster (with a QDevice) at home.
-Most of what I write is Python, and pretty much all of
-what I deploy is declared in a repo somewhere. Nothing gets `apply`'d by hand if
-a pipeline can do it instead.
+[Blog](https://corvus-dev.com) · [Codeberg](https://codeberg.org/ncoleman)
 
-A fair amount of my work lives on a self-hosted **Forgejo** instance rather than here —
-the homelab repos especially. Ya know. 
+### Open-source contributions
 
-Some things also live on [Codeberg](https://codeberg.org/ncoleman).
+<!-- contributions:start -->
+**7 merged PRs across 5 community projects.**
 
----
+All public merged PRs to repositories outside my account.
 
-### About Me
+#### [stub42/pytz](https://github.com/stub42/pytz)
 
-| | |
+- [#149](https://github.com/stub42/pytz/pull/149) Raise UnknownTimeZoneError for non-string zone arguments
+- [#148](https://github.com/stub42/pytz/pull/148) Make \_FixedOffset a BaseTzInfo exposing \_utcoffset
+
+#### [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
+
+- [#1773](https://github.com/commitizen-tools/commitizen/pull/1773) fix(config): add warning for multiple configuration files and update documentation
+
+#### [ashita-ai/arbiter](https://github.com/ashita-ai/arbiter)
+
+- [#88](https://github.com/ashita-ai/arbiter/pull/88) Add input validation with helpful error messages
+- [#85](https://github.com/ashita-ai/arbiter/pull/85) Feature/pretty print refactor
+
+#### [totalbrain/TxT2PDF](https://github.com/totalbrain/TxT2PDF)
+
+- [#5](https://github.com/totalbrain/TxT2PDF/pull/5) Enhanced performance and add benchmarking for PDF conversion.
+
+#### [ShahzaibAhmad05/gitree](https://github.com/ShahzaibAhmad05/gitree)
+
+- [#205](https://github.com/ShahzaibAhmad05/gitree/pull/205) docs: add interactive selection example to README
+<!-- contributions:end -->
+
+<!-- metrics:start -->
+
+<!-- metrics:end -->
+
+### Selected projects
+
+| Project | What it does |
 |---|---|
-| **Languages** | Python, Bash |
-| **Infrastructure** | Proxmox VE, LXC, Docker, OpenTofu/Terraform, Ansible, nix-darwin + home-manager |
-| **CI/CD** | Forgejo Actions, GitHub Actions, Kestra, Komodo |
-| **Platform** | Traefik, step-ca, Technitium DNS, MinIO, PBS |
-
----
-
-### Side projects
-
-**Some stuff I am working on**
-
-| | |
-|---|---|
-| [**elengtis**](https://github.com/nicoleman0/elengtis) | A configurable MCP prompt-injection benchmark, using declarative YAML + LangGraph. |
-| [**touchneedle**](https://github.com/nicoleman0/touchneedle) | Verifies that the citations in a document are real, accurately described, and consistently used — including the signature a fabricated AI bibliography leaves behind. Exits non-zero, so it drops into CI. `pip install touchneedle` |
-| [**surgite**](https://github.com/nicoleman0/surgite) | Standup summaries from your git history — browser, terminal, or a shareable link. FastAPI + Postgres, ~15 source files. `pip install surgite` |
-| [**temenos**](https://github.com/nicoleman0/temenos) | Cross-platform CLI for domain research |
-| [**kismob**](https://github.com/nicoleman0/kismob) | Mobile-first PWA for monitoring a Kismet wardriving rig |
-| [**Road To War: July 1914**](https://codeberg.org/ncoleman/road-to-war) | Browser game about the thirty days between Sarajevo and general war. FastAPI, opposing chancelleries run by the same rules you are |
-| [**run-run-run**](https://codeberg.org/ncoleman/run-run-run) | A local CI runner. GitLab-style `needs:` dependency graph, each job in its own Docker container, independent jobs concurrent |
-
----
+| [touchneedle](https://github.com/nicoleman0/touchneedle) | Checks whether document citations are real, accurately described and consistently used. Runs in CI. |
+| [surgite](https://github.com/nicoleman0/surgite) | Standup summaries from git history, in the browser or terminal. |
+| [elengtis](https://github.com/nicoleman0/elengtis) | A configurable MCP prompt-injection benchmark using YAML and LangGraph. |
+| [rescribo](https://github.com/nicoleman0/rescribo) | A customer feedback inbox connecting Slack, GitHub and human follow-up. |
 
 ### The homelab
 
-`corvidae` — a two-node Proxmox cluster (Dell Optiplex 7070 Micro + GMKtec M5 Plus) with a
-Raspberry Pi 5 as a corosync QDevice, so either node can drop and the survivor stays quorate.
-Around fifteen LXCs plus a Debian Docker VM.
+I run a two-node Proxmox cluster with a Raspberry Pi as its QDevice, managed with
+OpenTofu, Ansible and Forgejo Actions. My Mac configuration lives in nix-darwin
+and home-manager.
 
-It's run as GitOps end to end:
+The homelab repositories and operational docs live on a private Forgejo instance.
+I write about my projects at [corvus-dev.com](https://corvus-dev.com).
 
-- **OpenTofu** declares every guest (`hosts.yaml` / `vms.yaml`). A PR runs `tofu plan`, merging to `main` runs `tofu apply`, `main` is protected, and nobody applies by hand. State lives in **MinIO**, versioned and locked.
-- **Ansible** configures the insides — fourteen roles covering Proxmox hosts, Traefik, Technitium, Jellyfin, SSH hardening, LXC provisioning, and guest updates.
-- **Kestra** runs the scheduled side: cluster health, DHCP and DNS checks, disk and storage reporting, VPN health, host config backups, patching.
-- **Forgejo Actions** on a self-hosted runner drives all of it. **Traefik** fronts the services, **step-ca** issues the internal certs, **PBS** takes the backups.
-- The whole thing is documented in an MkDocs wiki that a Claude Code bot keeps current.
+### Research
 
-My Mac is declarative too — nix-darwin + home-manager + sops-nix, one `task switch` from clean to configured.
-
----
-
-### Dissertation
-
-**Somebody Else's Problem: Prompt Injection and the Hardened-Model Assumption in Deployed MCP Servers.**
-
-Depth-first security audits of deployed Model Context Protocol servers. Each server goes
-through recon → static → dynamic → synthesis; every finding is grounded in an artifact
-(`file:line`, a runnable PoC, or a captured request/response), scored with CVSS 4.0, and
-classified against the OWASP MCP Top 10. Findings go out under responsible disclosure.
-
----
-
-### Elsewhere
-
-- **Blog** — [corvus-dev.com](https://corvus-dev.com) (Astro, hand-written CSS, zero client JS, deployed to Cloudflare Pages from Forgejo Actions)
-- **Codeberg** — [@ncoleman](https://codeberg.org/ncoleman)
+My MSc Information Security dissertation at Royal Holloway examines prompt injection
+in deployed MCP servers and the assumption that a hardened model makes them safe.
+The work combines source review and live testing, with findings grounded in
+reproducible evidence and handled through responsible disclosure.
