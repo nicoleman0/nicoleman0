@@ -36,7 +36,7 @@ All public merged PRs to repositories outside my account.
 <!-- contributions:end -->
 
 <!-- metrics:start -->
-
+![GitHub stats and notable contributions](github-metrics.svg)
 <!-- metrics:end -->
 
 ### Selected projects
