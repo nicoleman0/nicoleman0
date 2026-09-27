@@ -1,7 +1,7 @@
 ## Nick Coleman
 
-I build Python tools, experiment with LLM security, and run a two-node Proxmox homelab.
-Most of what I deploy is declared in a repo and applied through a pipeline.
+I build with Python, experiment with LLMs, and run a Proxmox homelab.
+I try and gitops everything. Big fan of automation.
 
 [Blog](https://corvus-dev.com) · [Codeberg](https://codeberg.org/ncoleman)
 
