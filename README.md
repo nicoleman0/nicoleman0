@@ -1,8 +1,6 @@
 ## Nick Coleman
 
-I build with Python, experiment with LLMs, and run a Proxmox homelab.
-
-I try and gitops everything. Big fan of automation.
+I mainly build with Python. I try to automate everything
 
 [Blog](https://corvus-dev.com) · [Codeberg](https://codeberg.org/ncoleman)
 
