@@ -14,10 +14,11 @@ I mainly build with Python. I try to automate everything
 
 | Project | What it does |
 |---|---|
+| [switchyard](https://github.com/nicoleman0/switchyard) | Template for new projects built by coding agents: a coordinator, planner, and implementer |
+| [rescribo](https://github.com/nicoleman0/rescribo) | a customer feedback inbox connecting Slack, GitHub and human follow-up. |
 | [touchneedle](https://github.com/nicoleman0/touchneedle) | checks whether document citations are real, accurately described and consistently used; runs in CI. |
 | [surgite](https://github.com/nicoleman0/surgite) | standup summaries from git history, in the browser or terminal. |
 | [elengtis](https://github.com/nicoleman0/elengtis) | a configurable MCP prompt-injection benchmark using YAML and LangGraph. |
-| [rescribo](https://github.com/nicoleman0/rescribo) | a customer feedback inbox connecting Slack, GitHub and human follow-up. |
 
 ### The homelab
 
