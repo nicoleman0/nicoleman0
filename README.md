@@ -1,37 +1,9 @@
 ## Nick Coleman
 
-I mainly build with Python. I try to automate everything
-
-[Blog](https://corvus-dev.com) · [Codeberg](https://codeberg.org/ncoleman)
+[Personal Site](https://corvus-dev.com)
 
 ### Open-source contributions
 
 <!-- metrics:start -->
 ![GitHub stats and notable contributions](github-metrics.svg)
 <!-- metrics:end -->
-
-### Selected projects
-
-| Project | What it does |
-|---|---|
-| [switchyard](https://github.com/nicoleman0/switchyard) | Template for new projects built by coding agents: a coordinator, planner, and implementer |
-| [rescribo](https://github.com/nicoleman0/rescribo) | a customer feedback inbox connecting Slack, GitHub and human follow-up. |
-| [touchneedle](https://github.com/nicoleman0/touchneedle) | checks whether document citations are real, accurately described and consistently used; runs in CI. |
-| [surgite](https://github.com/nicoleman0/surgite) | standup summaries from git history, in the browser or terminal. |
-| [elengtis](https://github.com/nicoleman0/elengtis) | a configurable MCP prompt-injection benchmark using YAML and LangGraph. |
-
-### The homelab
-
-I run a two-node Proxmox cluster with a RPi as its QDevice, managed with
-OpenTofu, Ansible and Forgejo Actions. 
-
-my Mac configuration lives in nix-darwin and home-manager.
-
-the homelab repositories and operational docs live on a private Forgejo instance.
-
-I write about my projects at [corvus-dev.com](https://corvus-dev.com).
-
-### Research
-
-my MSc Information Security dissertation at Royal Holloway examines prompt injection
-in deployed MCP servers and the assumption that a hardened model makes them safe.
