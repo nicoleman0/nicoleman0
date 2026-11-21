@@ -45,6 +45,7 @@ jobs:
           plugin_notable_types: commit, pull_request
           plugin_notable_repositories: yes
           plugin_notable_self: no
+          plugin_notable_skipped: ashita-ai/arbiter
           config_timezone: Europe/London
           config_animations: no
           plugins_errors_fatal: yes
